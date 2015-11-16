@@ -1,0 +1,38 @@
+{
+  "name": "mfn/docblock-normalize",
+  "description": "Extracts doc blocks and normalizes the references classes based on the current namespace and use-aliases",
+  "type": "library",
+  "keywords": [
+    "docblock",
+    "extract",
+    "namespace",
+    "normalize",
+    "resolve",
+    "type"
+  ],
+  "homepage": "http://github.com/mfn/php-docblock-normalize",
+  "authors": [
+    {
+      "name": "Markus Fischer",
+      "email": "markus@fischer.name",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/mfn/php-docblock-normalize/issues"
+  },
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mfn\\DocblockNormalize\\": "src/",
+      "Mfn\\DocblockNormalize\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0",
+    "phing/phing": "^2.12"
+  }
+}
